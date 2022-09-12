@@ -1,33 +1,31 @@
+#include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 
-#include <time.h>
-#include <stdio.h>
-
-/** betty style doc for function main goes there
-*main - this will check if the number is negative or positive
-*
-*Description: write a main function that checks if a number n is -ve, +ve or neutral
-*please is part of the description
-*
-*Return: 0
-*/
+/**
+ *main - print if the number is positive, zero or negative
+ *Description: using the main function 
+ *this programme print if a number is positive, zero or negative
+ *
+ *Return: 0
+ */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n < 0)
+	/* your code goes here */
+	if (n > 0)
 	{
-		printf("%d is Negative\n", n);
+		printf('%d is positive\n', n);
 	}
-	else if (n > 0)
+	else if (n == 0)
 	{
-		printf("%d is Positive\n", n);
+		printf('%d is zero\n', n);
 	}
-	else
+	else if (n < 0)
 	{
-		printf("%d is zero\n", n);
+		printf('%d is negative\n', n);
 	}
 	return (0);
 }

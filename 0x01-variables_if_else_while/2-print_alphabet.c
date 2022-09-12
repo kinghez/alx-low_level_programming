@@ -1,17 +1,17 @@
-
 #include <stdio.h>
 
 /**
- *main - this function print all alphabet
+ *main - print letters of the alphabet from a to z
  *
- *Description: this uses the main function to print all alphabet from a to z
+ *Description: this programme help the main function
+ *this programmes run the letter of the alphabet
  *
  * Return: 0
  */
 int main(void)
 {
 	char ch;
-	for (ch = 'a' ; ch <= 'Z' ; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
