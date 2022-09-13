@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- *main - this is the main function
- *
- *Description: this programme uses the main function
- *to print all numbers in base ten
- *
- * Return: 0
+ *main - print all numbers in base ten
+ *Description: using the main function
+ *this programme print all numbers in base ten
+ *Return: 0
  */
-int main(viod)
+int main(void)
 {
 int n;
 for (n = 0; n < 10; n++)
 {
-	printf('%d', n);
+	printf("%d", n);
 }
-printf('\n');
+printf("\n");
 return (0);
 }
