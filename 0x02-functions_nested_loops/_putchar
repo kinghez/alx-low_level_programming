@@ -1,0 +1,12 @@
+#include <unistd.h>
+
+/**
+*main - this is the main function
+*Description: the main function print an alphabet
+*this is still part of the description
+*Return: always 0
+*/
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
