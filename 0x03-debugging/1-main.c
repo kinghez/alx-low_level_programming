@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -20,6 +19,6 @@ i = 0;
  *	putchar(i);
  * }
  */
-printf("infinite loop avoided\\o/\n");
+printf("infinite loop avoided! \\o/\n");
 return (0);
 }
