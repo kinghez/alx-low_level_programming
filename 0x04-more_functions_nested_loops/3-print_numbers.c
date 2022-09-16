@@ -7,11 +7,10 @@
 
 int print_numbers(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+int n;
+for (n = 48; n < 58; n++)
 {
-putchar(i);
+putchar(n);
 }
-putchar('\n');
-return (0);
+putchar(10);
 }
